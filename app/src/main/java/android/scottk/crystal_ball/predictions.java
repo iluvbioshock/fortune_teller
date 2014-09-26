@@ -12,7 +12,7 @@ public class Predictions {
     private Predictions() {
         answers = new String[] {
                 "your wish will come to pass.",
-                "Your wishes will NEVER come true"
+                "your wishes will NEVER come true."
 
         };
     }
@@ -23,6 +23,6 @@ public class Predictions {
         return predictions;
     }
     public String getPrediction() {
-        return answers[0];
+        return answers[1];
     }
 }
