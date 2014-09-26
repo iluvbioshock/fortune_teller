@@ -2,14 +2,13 @@ package android.scottk.crystal_ball;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.TextView;
 
 
 public class CrystalBall extends Activity {
 
     private TextView answerText;
+    private SensorManage
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
