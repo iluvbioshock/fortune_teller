@@ -1,11 +1,6 @@
 package android.scottk.crystal_ball;
 
-import android.gesture.Prediction;
-
-/**
- * Created by Student on 9/19/2014.
- */
-public class Predictions {
+public class Predictions{
     private static Predictions predictions;
     private String[] answers;
 
